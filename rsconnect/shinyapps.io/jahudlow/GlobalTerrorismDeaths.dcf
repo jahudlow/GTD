@@ -1,0 +1,10 @@
+name: GlobalTerrorismDeaths
+title: GlobalTerrorismDeaths
+account: jahudlow
+server: shinyapps.io
+appId: 182326
+bundleId: 835146
+url: https://jahudlow.shinyapps.io/GlobalTerrorismDeaths/
+when: 1495373484.1049
+asMultiple: FALSE
+asStatic: FALSE
