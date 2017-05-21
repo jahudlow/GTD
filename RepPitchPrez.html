@@ -67,19 +67,16 @@ The Shiny app designed for this project provides an interactive way to compare d
 The data set used for this project was derived from the <em>Global Terrorism Database</em> in the <strong>Ecdat</strong> package. A preview of the first few rows and columns is provided below:</p>
 
 <pre><code class="r">tdeaths &lt;- read.csv(&quot;tdeaths.csv&quot;)
+head(tdeaths[1:8,1:8])
 </code></pre>
 
-<pre><code>## Warning in file(file, &quot;rt&quot;): cannot open file &#39;tdeaths.csv&#39;: No such file
-## or directory
-</code></pre>
-
-<pre><code>## Error in file(file, &quot;rt&quot;): cannot open the connection
-</code></pre>
-
-<pre><code class="r">head(tdeaths[1:8,1:8])
-</code></pre>
-
-<pre><code>## Error in head(tdeaths[1:8, 1:8]): object &#39;tdeaths&#39; not found
+<pre><code>##   Year Annual.Avg. Afghanistan Algeria Angola Burundi Colombia El.Salvador
+## 1 1970        3.88           0       0      0       0        0           0
+## 2 1971        5.24           0       0      0       0        0           0
+## 3 1972       15.36           0       0      0       0        1           0
+## 4 1973       10.48           0       0      0       0        0           0
+## 5 1974       10.20           0       0      0       0        0           0
+## 6 1975       13.88           0       0      0       0        7           2
 </code></pre>
 
   </article>
